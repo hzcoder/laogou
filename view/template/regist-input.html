@@ -1,0 +1,16 @@
+<div class="regist-input">
+	<p>
+		<span><i class="icon iconfont icon-me"></i></span>
+		<input type="text" placeholder="输入手机号" ng-model="username" ng-blur="checkUsername()">
+		<span ng-bind="msg1"></span>
+	</p>
+	<p>
+		<span><i class="icon iconfont icon-pwd"></i></span>
+		<input type="password" placeholder="设置6位以上密码" ng-model="pwd" ng-blur="checkPwd()">
+		<span ng-bind="msg2"></span>
+	</p>
+	<p>
+		<input type="text" placeholder="短信验证码">
+		<button ng-click="doSend()" ng-bind="sendTxt"></button>
+	</p>
+</div>

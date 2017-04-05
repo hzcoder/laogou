@@ -1,0 +1,13 @@
+<div class="position-list">
+	<ul>
+		<li ng-repeat="pos in data" ui-sref="position({id:pos.id})">
+			<img ng-src="{{pos.imageUrl}}">
+			<div>
+				<h4>{{pos.companyName}}[{{pos.cityName}}] {{pos.industryName}} {{pos.scaleName}}</h4>
+				<p>{{pos.salaryName}}</p>
+				<h4>{{pos.date}}</h4>
+			</div>
+			<img ng-src="{{starUrl}}" ng-click="cancelSeled($event)" ng-hide="star">
+		</li>
+	</ul>
+</div>

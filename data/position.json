@@ -1,0 +1,20 @@
+{
+  "id": "p3",
+  "imageUrl": "image/company-1.png",
+  "name": "销售",
+  "companyId": "c3",
+  "companyName": "途牛",
+  "cityId": "c1",
+  "cityName": "上海",
+  "scaleId": "s3",
+  "scaleName": "50-150人",
+  "state":"A轮",
+  "industryId":"i1",
+  "industryName": "移动互联网",
+  "salaryId": "s2",
+  "salaryName": "3k-5k",
+  "experience": "1-3年",
+  "education": "专科",
+  "benefit": "成长空间大",
+  "description": "岗位职责：\n1.销售产品；..."
+}
